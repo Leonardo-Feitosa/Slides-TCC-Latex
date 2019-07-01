@@ -1,0 +1,438 @@
+\documentclass[aspectratio=169,12pt]{beamer}
+
+%======================================
+% Preâmbulo
+%--------------------------------------
+% Pacotes
+%======================================
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+% Tema da Universidade
+\usetheme{PUJ}
+
+\usepackage{psfrag}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amsmath,amssymb,amstext,amsfonts} % Pacotes de símbolos e fontes matemáticas.
+\usepackage{lmodern}
+\usepackage{wrapfig}
+\usepackage{float}
+
+\usepackage{textpos} % package for the positioning
+\usepackage{tikz,calc}
+\usepackage{pgf}
+\usepackage{varwidth}
+\usepackage{linegoal}
+
+% Renomear legendas de tabelas e figuras.
+\addto\captionsenglish{
+	\renewcommand{\figurename}{Figura}
+	\renewcommand{\tablename}{Tabela}
+}
+
+%\newcommand{\justifying}{tjusto}
+
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage[none]{hyphenat}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{sidecap}
+\usepackage{ifthen}
+\usepackage{psfrag}
+\usepackage{supertabular}
+\usepackage{enumerate}
+\usepackage{ragged2e}
+\usepackage{qrcode} % Pacote para gerar QR CODES em Latex.
+\usepackage{verbatim}
+
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\trace}{\operatornamewithlimits{tr}}
+\newcommand{\red}[1]{{\color{red}#1}}
+\DeclareMathOperator{\spanmath}{span}
+\DeclareMathOperator{\rank}{rank}
+
+\setbeamerfont{title}{series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\normalsize}
+\setbeamerfont{section in head/foot}{series=\bfseries}
+\setbeamerfont{subsection in head/foot}{series=\bfseries}
+
+\title[\textbf{Trabalho de Conclusão de Curso em Tecnologia em Telemática}]{{\Large Aplicação do Método de Site Survey para Análise de Cobertura e Recepção do Sinal Wi-Fi no Bloco Didático do Instituto Federal do Ceará Campus Tauá}}
+
+%\subtitle{}
+\author{Leonardo Feitosa Nogueira}
+\institute{Instituto Federal do Ceará -- IFCE -- Campus Tauá}
+\date[IFCE Campus Tauá]{\today}
+
+%======================================
+% Fim Preâmbulo
+%======================================
+
+\begin{document}
+% ----------------------------------------- Slide -----------------------------------------
+% Frame de título
+\begin{frame}[t,plain]
+	\titlepage
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+% Sumário da apresentação
+\begin{frame}
+	\frametitle{Sumário}
+	\tableofcontents
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\section{Introdução e o Tema}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}
+\frametitle{Introdução e o Tema}
+	\begin{itemize}
+		\item Os últimos 50 anos da computação podem ser divididos em duas grandes tendências: a dos mainframes, com muitas pessoas compartilhando um computador, e a dos computadores pessoais com um computador para cada usuário.
+		\item A era do Mainframe -- Muitas pessoas compartilhando um computador.
+		\item A era do PC (Computador Pessoal) -- Um computador para uma pessoa.
+		\item A era das redes locais.
+	\end{itemize}
+	\begin{block}{}
+		\begin{itemize}
+			\item Desde 1984 o número de pessoas usando PCs é maior que o número de pessoas compartilhando computadores.
+		\end{itemize}
+	\end{block}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{A Era dos Mainframes}
+	\begin{itemize}
+		\item Na década de 50 e 60 dominaram a área de informática em grandes corporações. 
+		\item Os mainframes são capazes de oferecer serviços de processamento a milhares de usuários através de milhares de terminais conectados diretamente ou através de uma rede. 
+		\item Foram muito utilizados em guerra para cálculo balístico.
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{A Era dos Mainframes}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth,height=0.46\linewidth]{img/mainframe.jpg}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{A Era dos PCs}
+	\begin{itemize}
+		\item A partir dos anos 60, os computadores deixaram de utilizar válvulas de vácuo para passarem a ser gradualmente transistorizados o que os levou a serem mais duradouros, pequenos, eficientes, fiáveis e baratos.
+		\item Em 1971, a Intel lança o primeiro microprocessador comercial, o 4004 o que é um gigantesco salto tecnológico.
+		\item Componentes de hardware encolhem, tornando os computadores menores e baratos.
+		\item Computadores pessoais (PC) tornam-se acessíveis e ganham o mercado mundial.
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{A Era dos PCs}
+	\begin{figure}[H]
+		\centering \includegraphics[width=0.7\linewidth,height=0.43\linewidth]{img/pc1.jpg}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\section{Paradigmas Computacionais}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Eras da Computação}
+\framesubtitle{Transição}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth,height=0.4\linewidth]{img/erascomp.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Terceira Era da Computação}
+\framesubtitle{Transição}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth,height=0.46\linewidth]{img/transicao.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Transição}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth,height=0.41\linewidth]{img/introwieser.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\subsection*{Parte 2 -- Mateus}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Motivações}
+	\begin{itemize}
+		\item Capacidades de \textcolor{blue}{computação em todo lugar}, \textcolor{blue}{embarcados no ambiente} a ponto de poderem ser usadas sem serem notadas!
+		\item O foco da atenção do usuário deve estar no tarefa a ser realizada e não na computação para realizá-la
+		\item O computador não deve monopolizar a atenção do usuário
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Paradigmas Computacionais}
+	\begin{itemize}
+		\item E hoje, após uma transição pelo período da Internet e da Computação Distribuída, entramos na Era da Computação Ubíqua -- muitos computadores compartilhando cada um de nós.
+		\item Computadores estariam presentes nos mais comuns objetos do
+		dia-a-dia: etiquetas de roupas, xícaras de café, interruptores de
+		luz, canetas, etc, de forma invisível para o usuário, compartilhando cada um de nós.
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{As Três Eras da Computação}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.82\linewidth,height=0.45\linewidth]{img/ubicomp.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Computação Ubíqua}
+\framesubtitle{Conceitos Prévios}
+	\begin{itemize}
+		\item Para se entender e posicionar a Computação Ubíqua é necessário ter em mente alguns conceitos. 
+		\item Resumidamente a Computação Ubíqua está posicionada entre a Computação Móvel e a Computação Pervasiva.
+	\end{itemize}
+	
+	\begin{block}{}
+			\begin{itemize}
+			\item Termos relacionados \textbf{mas não sinônimos}:
+		\begin{itemize}
+			\item Computação Ubíqua
+			\item Computação Pervasiva
+			\item Computação Móvel
+		\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\section{Computação Móvel e Pervasiva}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Computação Móvel}
+	\begin{block}{}
+		\begin{itemize}
+		\justifying
+		\item Se o objetivo é \textcolor{blue}{não obrigar o usuário a ir até ao computador}, uma saída possível é encolher os \textcolor{blue}{dispositivos para que possam ser facilmente carregados} (ou vestidos), enquanto o usuário se movimenta livremente.
+		\end{itemize}
+	\end{block}	
+		
+	\begin{block}{}
+		\begin{itemize}
+		\item Isso pode ser chamado \textbf{Computação Móvel}, e implica em vários aspectos:
+		\begin{itemize}
+			\item Conexão Wireless
+			\item Computadores Móveis
+		\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Conexão Wireless}
+	\begin{itemize}
+		\item Prover conexão wireless contínua à rede (através de Bluetooth, IEEE 802.11, telefonia celular, ou outras formas); manter o serviço funcionando com os dispositivos em movimento.
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Computadores Móveis}
+  \begin{itemize}
+  	\item Fazer os computadores e interfaces pequenos; prover e gerenciar energia elétrica; criar interfaces que se adaptem ao tamanho do dispositivo e continuem sendo amigáveis; inventar novos dispositivos de interface para computadores móveis.
+  \end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Computação Móvel}
+	\begin{itemize}
+		\item Computação Móvel é a capacidade de um dispositivo 		computacional e os serviços associados ao mesmo serem móveis, permitindo este ser carregado ou transportado mantendo-se conectado a rede ou a Internet.
+	\end{itemize}
+	\begin{figure}[H]
+		\centering				\includegraphics[width=0.7\linewidth,height=0.32\linewidth]{img/esquema_digital.jpg}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Computação Pervasiva}
+	\begin{itemize}
+		\item Este conceito define que os meios de computação estarão distribuídos no ambiente de trabalho dos usuários de forma perceptível ou imperceptível.
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\linewidth,height=0.35\linewidth]{img/comp_pervasive.jpg}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\subsection*{Parte 3 -- Werbbet}
+\section{Computação Ubíqua}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Computação Ubíqua}
+	\begin{block}{}
+	\begin{itemize}
+		\justifying
+		\item A computação ubíqua beneficia-se dos avanços da computação móvel e da computação pervasiva.
+	\end{itemize}
+	\end{block}
+	\begin{block}{} 
+	\begin{itemize}
+		\justifying		
+		\item A computação ubíqua surge então da necessidade de se integrar mobilidade com a funcionalidade da computação pervasiva, ou seja, qualquer dispositivo computacional, enquanto em movimento conosco, pode construir, dinamicamente, modelos computacionais dos ambientes nos quais nos movemos e configurar seus serviços dependendo da necessidade.
+	\end{itemize}
+	\end{block}
+	\begin{block}{}
+	\begin{itemize}
+		\justifying
+		\item A ideia básica é que a computação move-se para fora das estações de trabalho e PCs e torna-se pervasiva no cotidiano dos indivíduos.
+	\end{itemize}
+	\end{block}		
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Relações Computacionais}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.82\linewidth,height=0.45\linewidth]{img/comparacao.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Dimensões da Computação Ubíqua}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.85\linewidth,height=0.4\linewidth]{img/comparacao2.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Ubiquitous -- Ubíquo}
+	\begin{itemize}
+		\item Ubíquo = do Latim \textit{ubiquu} - Adjetivo - Que está ao mesmo tempo em toda parte.
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Computação Ubíqua}
+	\begin{itemize}
+		\item O termo computação ubíqua foi primeiramente sugerido por \textbf{Mark Weiser} em 1988 para descrever sua ideia de tornar os computadores onipresentes e invisíveis. 
+
+		\item Isto é, a tentativa de tirar o computador do caminho entre você e seu trabalho. 
+
+		\item Seu objetivo é ir além da \textquotedblleft interface amigável\textquotedblright\ e longe da realidade virtual. 
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{A Visão de Weiser}
+	\begin{block}{}
+		\begin{itemize}
+		\item Weiser teorizou que futuramente o foco destes usuários ficaria voltado para a tarefa, e não para a ferramenta utilizada, utilizando-se de computação sem perceber ou necessitar de conhecimentos técnicos da máquina utilizada.
+		\end{itemize}
+	\end{block}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Cenário}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth,height=0.45\linewidth]{img/exemplo.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\subsection*{Parte 4 -- Leonardo}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Princípios da Computação Ubíqua}
+Pelos menos três princípios são identificados na Computação Ubíqua:
+	\begin{itemize}
+		\item Diversidade
+		\begin{itemize}
+			\item Atende necessidades especificas de usuários particulares
+		\end{itemize}
+		\item Descentralização
+		\begin{itemize}
+			\item Responsabilidades são distribuídas entre vários
+dispositivos pequenos que assumem e executam certas tarefas e funções
+		\end{itemize}
+		\item Conectividade
+		\begin{itemize}
+			\item Dispositivos trocam informações entre si
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Subáreas da Computação Ubíqua}
+\framesubtitle{Computação acoplada ao corpo -- \textit{Wearable computing}}
+	\begin{itemize}
+		\item Os usuários levam equipamentos de computação acoplados a si mesmos
+		\begin{itemize}
+			\item Presos no tecido das roupas ou dentro deles
+			\item Relógios, joias ou óculos, por exemplo
+		\end{itemize}
+		\item Frequentemente funcionam sem que o usuário precise manipulá-los
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Subáreas da Computação Ubíqua}
+\framesubtitle{Computação com reconhecimento de contexto}
+	\begin{itemize}
+		\item Sistemas de computadores adaptam seu comportamento automaticamente, de acordo com as circunstâncias físicas
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth,height=0.34\linewidth]{img/img1.jpg}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Sensibilidade ao contexto}
+	\begin{itemize}
+		\item O sistema deve possuir mecanismos que permitam a aquisição de informações do meio
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.78\linewidth,height=0.38\linewidth]{img/contexto.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Aplicações}
+	\begin{itemize}
+		\item Educação
+		\begin{itemize}
+			\item Classroom 2000
+		\end{itemize}
+		\item Residências
+		\begin{itemize}
+			\item Casas inteligentes
+		\end{itemize}
+		\item Medicina
+		\begin{itemize}
+			\item \textit{Pervasive healthcare} -- Hospital virtual
+		\end{itemize}
+		\item Automóveis
+		\begin{itemize}
+			\item Pedidos de socorro e rastreamento remoto
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}[plain]
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.66\linewidth,height=0.6\linewidth]{img/casa.png}
+	\end{figure}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}{Segurança}
+	\begin{itemize}
+		\item É fundamental o apoio dos pilares da segurança da
+informação, tais como \textcolor{blue}{Confidencialidade, Integridade, Autenticidade e Disponibilidade.} 
+		\item Com isso, impede-se falhas na troca de informações
+entre os dispositivos tais como interceptação ou modificação de seu conteúdo.
+	\end{itemize}
+\end{frame}
+% ----------------------------------------- Slide -----------------------------------------
+\section{Referências}
+% ----------------------------------------- Slide -----------------------------------------
+\begin{frame}
+\frametitle{Referências}
+	\begin{thebibliography}{10}
+		\begin{scriptsize}
+		\justifying
+		\bibitem{beamer} CIRILO, Carlos E. \textbf{Computação Ubíqua:} definição, princípios e tecnologias. Artigo científico, Universidade Federal de São Carlos, São Paulo, 2008.
+		
+		\bibitem{beamer} COULOURIS, G.; DOLLIMORE, J.; KINDBERG, T. \textbf{Sistemas Distribuídos:} Conceitos e Projeto. 4. ed. Bookman Editora, 2007.
+		
+		\bibitem{beamer} DE ARAÚJO, Regina B. \textbf{Computação ubíqua:} Princípios, tecnologias e desafios. In: XXI Simpósio Brasileiro de Redes de Computadores, p. 11--13, 2003.
+		
+		\bibitem{beamer} NATÁRIO, Rui. \textbf{A Evolução da Computação:} A Era dos Mainframes. 2013. Disponível em: $<$\url{http://redes-e-servidores.blogspot.com/2013/02/a-evolucao-da-computacao-era-dos.html}$>$. Acesso em: 01 nov 2018.
+		
+		\bibitem{beamer} OTTOBBONI, João C. \textbf{Computação Ubíqua e Pervasiva.} 2014. Disponível em: $<$\url{https://pt.slideshare.net/jcottobboni/computao-ubqua-e-pervasiva}$>$. Acesso em: 01 nov 2018.
+		
+		\bibitem{beamer} SILVA, E.; BOTELHO, L.; SANTOS, I.; SANCHEZ, G. Computação Ubíqua -- Definição e Exemplos. \textbf{Revista de Empreendedorismo, Inovação e Tecnologia}, v. 2, n. 1, p. 23-32, 2015.
+		
+		\bibitem{beamer} WEISER, Mark. \textbf{The Computer for the 21 st Century}. In: Scientific american, v. 265, n. 3, p. 94--105, 1991.
+		\end{scriptsize}
+	\end{thebibliography}
+\end{frame}
+% Fim da apresentação
+\end{document}

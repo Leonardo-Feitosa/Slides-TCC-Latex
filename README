@@ -1,0 +1,15 @@
+Autor
+=====
+Jaime Eduardo Arias Almeida <jearias@javerianacali.edu.co>
+
+Instalación
+===========
+$ sudo cp -r PUJ_Beamer_Theme /usr/share/texmf-dist/tex/latex/beamer/themes/theme/
+$ sudo texhash
+
+Uso
+===
+En el preambulo del archivo .tex escribir
+\usetheme{PUJ}
+
+$ pdflate archivo.tex

@@ -1,0 +1,129 @@
+% Inner style file for the Beamer PUJ Theme
+%
+% Jaime Eduardo Arias Almeida <jearias@javerianacali.edu.co>
+% Tema basado en el beamer-torino-theme <https://github.com/bbatsov/beamer-torino-theme>
+
+\mode<presentation>
+
+% Argumento de los bullets
+\DeclareOptionBeamer{shadow}[true]{\def\beamer@themerounded@shadow{#1}}
+\ExecuteOptionsBeamer{shadow=false}
+\ProcessOptionsBeamer
+
+% Colores
+\setbeamercolor*{title page header}{parent=title}
+
+% Margenes
+\newlength{\beamer@PUJ@normalmargin}
+\setlength{\beamer@PUJ@normalmargin}{.06\paperwidth}
+
+% Margenes del texto
+\setbeamersize{text margin left=\beamer@PUJ@normalmargin}
+\setbeamersize{text margin right=\beamer@PUJ@normalmargin}
+
+% Margenes de los bullets
+\setlength\leftmargini{.6\beamer@PUJ@normalmargin}
+\setlength\leftmarginii{.6\beamer@PUJ@normalmargin}
+\setlength\leftmarginiii{.6\beamer@PUJ@normalmargin}
+
+
+% Plantilla de la página del título
+\defbeamertemplate*{title page normal}{PUJ theme}[1][]
+{
+  {\parskip0pt\offinterlineskip%
+  \hbox{\hskip-\Gm@lmargin\hbox{\vbox{%
+  \@tempdima=\textwidth\textwidth=\paperwidth\hsize=\textwidth\def\\{,}\vbox{}\vskip-1.5ex%
+  
+	%\begin{beamercolorbox}[wd=\paperwidth,ht=.1\paperheight,center,#1]{title page header}
+           %\usebeamerfont{date}\bfseries TRABALHO DE CONCLUSÃO DE CURSO EM TECNOLOGIA EM TELEMÁTICA
+    %\end{beamercolorbox}%\vskip0.2em%
+    %\vfill%
+    % Título
+    \begin{beamercolorbox}[wd=\paperwidth,ht=.36\paperheight,center,#1]{title page header}
+      \usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+      \vspace{.1\paperheight}%
+    \end{beamercolorbox}%   
+  }}%
+  \hskip-\Gm@rmargin%
+  }}
+  \hfill%
+  %
+  \vfill%
+  % Informações sobre a apresentação
+	\begin{columns}
+          \column{.5\textwidth}
+
+          % Autor
+          %\vskip1em\par
+          \begin{beamercolorbox}[sep=7pt,center,#1]{author}
+            \usebeamerfont{author}\bfseries\insertauthor
+          \end{beamercolorbox}
+
+		  % Instituto 
+          \begin{beamercolorbox}[sep=7pt,center,#1]{institute}
+            \usebeamerfont{institute}\insertinstitute
+          \end{beamercolorbox}
+			
+		  % Fecha
+          \begin{beamercolorbox}[sep=7pt,center,#1]{date}
+            \usebeamerfont{date}\bfseries\insertdate
+          \end{beamercolorbox}\vskip0.5em
+
+		  % Gráfico
+          %{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+          \column{.5\textwidth}
+              % Logo da instituição
+              \begin{centering}
+                  \vbox{}\vfill
+                  \includegraphics[height=.2\paperheight]{img/logo_ifce_horizontal_padronizado.pdf}
+                  \vfill
+              \end{centering}
+	\end{columns}
+\vfill%
+	% Orientador
+	\begin{beamercolorbox}[wd=\paperwidth,sep=5pt,left,#1]{date}
+		\usebeamerfont{date}Orientador: Prof. Dr. Francisco Rafael Vasconcelos Guimarães
+    \end{beamercolorbox}
+    % Coorientador
+    \begin{beamercolorbox}[wd=\paperwidth,sep=5pt,left,#1]{date}
+    	\usebeamerfont{date}Coorientador: Prof. Kilbert Amorim Maciel
+    \end{beamercolorbox}
+    \vfill%
+    % Local da defesa
+	\begin{beamercolorbox}[wd=\paperwidth,sep=0pt,center,#1]{date}
+       \usebeamerfont{date}Tauá, Ceará, 2019
+    \end{beamercolorbox}%\vskip0.5em
+%\vfill%
+}
+
+% Seleccionar la plantilla del título
+\defbeamertemplate*{title page}{PUJ}[1][]
+{
+    \usebeamertemplate{title page normal}%
+}
+
+% Plantillas para los bullets
+\defbeamertemplate{itemize item}{circlealt}%
+{\small\raise.2ex\hbox{\donotcoloroutermaths$\bullet$}}
+\defbeamertemplate{itemize subitem}{circlealt}%
+{\small\raise.1ex\hbox{\donotcoloroutermaths$\circ$}}
+\defbeamertemplate{itemize subsubitem}{circlealt}%
+{\scriptsize\raise.1ex\hbox{\donotcoloroutermaths$\bullet$}}
+
+\setbeamertemplate{items}[circlealt]
+
+
+% Plantilla de los bloques
+\setbeamertemplate{blocks}[rounded][shadow=\beamer@themerounded@shadow]
+
+% Plantilla de la tabla de contenidos
+\setbeamertemplate{sections/subsections in toc}[circle]
+
+
+\mode
+<all>
