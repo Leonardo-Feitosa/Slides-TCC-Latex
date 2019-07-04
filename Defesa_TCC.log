@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  29 JUN 2019 08:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  4 JUL 2019 08:50
 entering extended mode
 **./Defesa_TCC.tex
 (Defesa_TCC.tex
@@ -1302,11 +1302,12 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
 (Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 88.
-<img/logo_ifce_horizontal_padronizado.pdf, id=45, 2496.95236pt x 596.0042pt>
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 88.
+<fig_tcc/logo_ifce_horizontal_padronizado.pdf, id=45, 2496.95236pt x 596.0042pt
+>
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 88.
 (pdftex.def)             Requested size: 214.54321pt x 51.21417pt.
 
 Overfull \hbox (14.2347pt too wide) in paragraph at lines 88--88
@@ -1318,11 +1319,11 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {C:/Users/Leonardo Feitosa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <
-./img/logo_ifce_horizontal_padronizado.pdf>] (Defesa_TCC.toc)
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 94.
+./fig_tcc/logo_ifce_horizontal_padronizado.pdf>] (Defesa_TCC.toc)
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 94.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1337,10 +1338,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 110.
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 110.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 110.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1350,10 +1351,10 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [3
 
 ]
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 132.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 132.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1363,10 +1364,10 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [4
 
 ]
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 144.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 144.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1376,10 +1377,10 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [5
 
 ]
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 161.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 161.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1389,33 +1390,7 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [6
 
 ]
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 161.
-(pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
-
-Overfull \hbox (2.19998pt too wide) has occurred while \output is active
-[][] 
- []
-
-[7
-
-]
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 161.
-(pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
-
-Overfull \hbox (2.19998pt too wide) has occurred while \output is active
-[][] 
- []
-
-[8
-
-]
-<fig_tcc/arquiteturas_802-11_01.pdf, id=135, 968.14934pt x 594.54918pt>
+<fig_tcc/arquiteturas_802-11_01.pdf, id=122, 968.14934pt x 594.54918pt>
 File: fig_tcc/arquiteturas_802-11_01.pdf Graphic file (type pdf)
 <use fig_tcc/arquiteturas_802-11_01.pdf>
 Package pdftex.def Info: fig_tcc/arquiteturas_802-11_01.pdf  used on input line
@@ -1428,20 +1403,20 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
 Overfull \vbox (14.42969pt too high) detected at line 171
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 171.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 171.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [][] 
  []
 
-[9
+[7
 
  <./fig_tcc/arquiteturas_802-11_01.pdf>]
-<fig_tcc/ieee_802_11.png, id=163, 947.03813pt x 308.65312pt>
+<fig_tcc/ieee_802_11.png, id=151, 947.03813pt x 308.65312pt>
 File: fig_tcc/ieee_802_11.png Graphic file (type png)
 <use fig_tcc/ieee_802_11.png>
 Package pdftex.def Info: fig_tcc/ieee_802_11.png  used on input line 182.
@@ -1451,20 +1426,20 @@ Overfull \hbox (20.82083pt too wide) in paragraph at lines 182--182
  [] 
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 182.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 182.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [][] 
  []
 
-[10
+[8
 
  <./fig_tcc/ieee_802_11.png>]
-<fig_tcc/fluxograma_site_survey_01.pdf, id=170, 241.94237pt x 390.2367pt>
+<fig_tcc/fluxograma_site_survey_01.pdf, id=158, 241.94237pt x 390.2367pt>
 File: fig_tcc/fluxograma_site_survey_01.pdf Graphic file (type pdf)
 <use fig_tcc/fluxograma_site_survey_01.pdf>
 Package pdftex.def Info: fig_tcc/fluxograma_site_survey_01.pdf  used on input l
@@ -1474,20 +1449,20 @@ ine 192.
 Overfull \vbox (14.00417pt too high) detected at line 192
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 192.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 192.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [][] 
  []
 
-[11
+[9
 
  <./fig_tcc/fluxograma_site_survey_01.pdf>]
-<fig_tcc/slide_metodologia.pdf, id=183, 1190.5095pt x 515.21022pt>
+<fig_tcc/slide_metodologia.pdf, id=171, 1190.5095pt x 515.21022pt>
 File: fig_tcc/slide_metodologia.pdf Graphic file (type pdf)
 <use fig_tcc/slide_metodologia.pdf>
 Package pdftex.def Info: fig_tcc/slide_metodologia.pdf  used on input line 203.
@@ -1497,20 +1472,20 @@ Package pdftex.def Info: fig_tcc/slide_metodologia.pdf  used on input line 203.
 Overfull \vbox (0.42447pt too high) detected at line 203
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 203.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 203.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [][] 
  []
 
-[12
+[10
 
  <./fig_tcc/slide_metodologia.pdf>]
-<fig_tcc/heatmapper.jpg, id=190, 702.625pt x 375.4025pt>
+<fig_tcc/heatmapper.jpg, id=178, 702.625pt x 375.4025pt>
 File: fig_tcc/heatmapper.jpg Graphic file (type jpg)
 <use fig_tcc/heatmapper.jpg>
 Package pdftex.def Info: fig_tcc/heatmapper.jpg  used on input line 224.
@@ -1520,25 +1495,25 @@ Overfull \hbox (11.46156pt too wide) in paragraph at lines 224--224
  [] 
  []
 
-<fig_tcc/xirrus.png, id=191, 1433.355pt x 969.6225pt>
+<fig_tcc/xirrus.png, id=179, 1433.355pt x 969.6225pt>
 File: fig_tcc/xirrus.png Graphic file (type png)
 <use fig_tcc/xirrus.png>
 Package pdftex.def Info: fig_tcc/xirrus.png  used on input line 224.
 (pdftex.def)             Requested size: 190.62944pt x 128.95522pt.
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 224.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 224.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 [][] 
  []
 
-[13
+[11
 
  <./fig_tcc/heatmapper.jpg> <./fig_tcc/xirrus.png>]
-<fig_tcc/notebook.jpg, id=202, 3822.28pt x 2344.76pt>
+<fig_tcc/notebook.jpg, id=189, 3822.28pt x 2344.76pt>
 File: fig_tcc/notebook.jpg Graphic file (type jpg)
 <use fig_tcc/notebook.jpg>
 Package pdftex.def Info: fig_tcc/notebook.jpg  used on input line 244.
@@ -1548,7 +1523,7 @@ Overfull \hbox (12.18675pt too wide) in paragraph at lines 244--244
  [] 
  []
 
-<fig_tcc/tab_notebook.png, id=203, 660.96938pt x 277.035pt>
+<fig_tcc/tab_notebook.png, id=190, 660.96938pt x 277.035pt>
 File: fig_tcc/tab_notebook.png Graphic file (type png)
 <use fig_tcc/tab_notebook.png>
 Package pdftex.def Info: fig_tcc/tab_notebook.png  used on input line 244.
@@ -1558,10 +1533,65 @@ Overfull \hbox (5.99788pt too wide) in paragraph at lines 244--244
  [] 
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 244.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 244.
+(pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
+
+Overfull \hbox (2.19998pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[12
+
+ <./fig_tcc/notebook.jpg> <./fig_tcc/tab_notebook.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 257.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 257.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 257.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 257.
+
+<fig_tcc/planta_andar2.pdf, id=196, 2281.10005pt x 1191.59277pt>
+File: fig_tcc/planta_andar2.pdf Graphic file (type pdf)
+<use fig_tcc/planta_andar2.pdf>
+Package pdftex.def Info: fig_tcc/planta_andar2.pdf  used on input line 257.
+(pdftex.def)             Requested size: 307.93523pt x 160.85808pt.
+
+Overfull \vbox (14.32153pt too high) detected at line 257
+ []
+
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 257.
+(pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
+
+Overfull \hbox (2.19998pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[13
+
+ <./fig_tcc/planta_andar2.pdf>]
+<fig_tcc/Pontos_Medidos_Andar02.pdf, id=219, 2301.29022pt x 1191.59117pt>
+File: fig_tcc/Pontos_Medidos_Andar02.pdf Graphic file (type pdf)
+<use fig_tcc/Pontos_Medidos_Andar02.pdf>
+Package pdftex.def Info: fig_tcc/Pontos_Medidos_Andar02.pdf  used on input line
+ 268.
+(pdftex.def)             Requested size: 276.14291pt x 142.98477pt.
+
+Overfull \vbox (11.94821pt too high) detected at line 268
+ []
+
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 268.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1570,30 +1600,21 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [14
 
- <./fig_tcc/notebook.jpg> <./fig_tcc/tab_notebook.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 256.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 256.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 256.
+ <./fig_tcc/Pontos_Medidos_Andar02.pdf>]
+<fig_tcc/heatmapper_2_andar.png, id=428, 1027.58907pt x 530.73282pt>
+File: fig_tcc/heatmapper_2_andar.png Graphic file (type png)
+<use fig_tcc/heatmapper_2_andar.png>
+Package pdftex.def Info: fig_tcc/heatmapper_2_andar.png  used on input line 279
+.
+(pdftex.def)             Requested size: 287.72298pt x 148.60417pt.
 
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 256.
-
-<fig_tcc/planta_andar1.pdf, id=209, 1783.60666pt x 948.758pt>
-File: fig_tcc/planta_andar1.pdf Graphic file (type pdf)
-<use fig_tcc/planta_andar1.pdf>
-Package pdftex.def Info: fig_tcc/planta_andar1.pdf  used on input line 256.
-(pdftex.def)             Requested size: 285.38289pt x 151.80438pt.
-
-Overfull \vbox (5.26784pt too high) detected at line 256
+Overfull \vbox (17.56761pt too high) detected at line 279
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 256.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 279.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1602,21 +1623,20 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [15
 
- <./fig_tcc/planta_andar1.pdf>]
-<fig_tcc/Pontos_Medidos_Andar01.pdf, id=309, 1783.60678pt x 948.75769pt>
-File: fig_tcc/Pontos_Medidos_Andar01.pdf Graphic file (type pdf)
-<use fig_tcc/Pontos_Medidos_Andar01.pdf>
-Package pdftex.def Info: fig_tcc/Pontos_Medidos_Andar01.pdf  used on input line
- 267.
-(pdftex.def)             Requested size: 249.70325pt x 132.82516pt.
+ <./fig_tcc/heatmapper_2_andar.png>]
+<fig_tcc/planta_andar1.pdf, id=436, 1783.60666pt x 948.758pt>
+File: fig_tcc/planta_andar1.pdf Graphic file (type pdf)
+<use fig_tcc/planta_andar1.pdf>
+Package pdftex.def Info: fig_tcc/planta_andar1.pdf  used on input line 290.
+(pdftex.def)             Requested size: 285.38289pt x 151.80438pt.
 
-Overfull \vbox (1.7886pt too high) detected at line 267
+Overfull \vbox (5.26784pt too high) detected at line 290
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 267.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 290.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1625,21 +1645,21 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [16
 
- <./fig_tcc/Pontos_Medidos_Andar01.pdf>]
-<fig_tcc/heatmapper_Terreo_Editada.png, id=542, 1022.31938pt x 532.23843pt>
-File: fig_tcc/heatmapper_Terreo_Editada.png Graphic file (type png)
-<use fig_tcc/heatmapper_Terreo_Editada.png>
-Package pdftex.def Info: fig_tcc/heatmapper_Terreo_Editada.png  used on input l
-ine 278.
-(pdftex.def)             Requested size: 286.24747pt x 149.02574pt.
+ <./fig_tcc/planta_andar1.pdf>]
+<fig_tcc/Pontos_Medidos_Andar01.pdf, id=537, 1783.60678pt x 948.75769pt>
+File: fig_tcc/Pontos_Medidos_Andar01.pdf Graphic file (type pdf)
+<use fig_tcc/Pontos_Medidos_Andar01.pdf>
+Package pdftex.def Info: fig_tcc/Pontos_Medidos_Andar01.pdf  used on input line
+ 301.
+(pdftex.def)             Requested size: 249.70325pt x 132.82516pt.
 
-Overfull \vbox (17.98918pt too high) detected at line 278
+Overfull \vbox (1.7886pt too high) detected at line 301
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 278.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 301.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1648,20 +1668,21 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [17
 
- <./fig_tcc/heatmapper_Terreo_Editada.png>]
-<fig_tcc/planta_andar2.pdf, id=550, 2281.10005pt x 1191.59277pt>
-File: fig_tcc/planta_andar2.pdf Graphic file (type pdf)
-<use fig_tcc/planta_andar2.pdf>
-Package pdftex.def Info: fig_tcc/planta_andar2.pdf  used on input line 289.
-(pdftex.def)             Requested size: 307.93523pt x 160.85808pt.
+ <./fig_tcc/Pontos_Medidos_Andar01.pdf>]
+<fig_tcc/heatmapper_Terreo_Editada.png, id=770, 1022.31938pt x 532.23843pt>
+File: fig_tcc/heatmapper_Terreo_Editada.png Graphic file (type png)
+<use fig_tcc/heatmapper_Terreo_Editada.png>
+Package pdftex.def Info: fig_tcc/heatmapper_Terreo_Editada.png  used on input l
+ine 312.
+(pdftex.def)             Requested size: 286.24747pt x 149.02574pt.
 
-Overfull \vbox (14.32153pt too high) detected at line 289
+Overfull \vbox (17.98918pt too high) detected at line 312
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 289.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 312.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1670,21 +1691,23 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [18
 
- <./fig_tcc/planta_andar2.pdf>]
-<fig_tcc/Pontos_Medidos_Andar02.pdf, id=573, 2301.29022pt x 1191.59117pt>
-File: fig_tcc/Pontos_Medidos_Andar02.pdf Graphic file (type pdf)
-<use fig_tcc/Pontos_Medidos_Andar02.pdf>
-Package pdftex.def Info: fig_tcc/Pontos_Medidos_Andar02.pdf  used on input line
- 300.
-(pdftex.def)             Requested size: 276.14291pt x 142.98477pt.
+ <./fig_tcc/heatmapper_Terreo_Editada.png>]
+<fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf, id=778, 2281.10005pt x 126
+6.65628pt>
+File: fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf Graphic file (type pdf
+)
+<use fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf>
+Package pdftex.def Info: fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf  us
+ed on input line 323.
+(pdftex.def)             Requested size: 296.55342pt x 164.6711pt.
 
-Overfull \vbox (11.94821pt too high) detected at line 300
+Overfull \vbox (18.57036pt too high) detected at line 323
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 300.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 323.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1693,21 +1716,23 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [19
 
- <./fig_tcc/Pontos_Medidos_Andar02.pdf>]
-<fig_tcc/heatmapper_2_andar.png, id=783, 1027.58907pt x 530.73282pt>
-File: fig_tcc/heatmapper_2_andar.png Graphic file (type png)
-<use fig_tcc/heatmapper_2_andar.png>
-Package pdftex.def Info: fig_tcc/heatmapper_2_andar.png  used on input line 311
-.
-(pdftex.def)             Requested size: 287.72298pt x 148.60417pt.
+ <./fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf>]
+<fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf, id=816, 1783.60567pt x 101
+6.41664pt>
+File: fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf Graphic file (type pdf
+)
+<use fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf>
+Package pdftex.def Info: fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf  us
+ed on input line 332.
+(pdftex.def)             Requested size: 303.20895pt x 172.78854pt.
 
-Overfull \vbox (17.56761pt too high) detected at line 311
+Overfull \vbox (26.6878pt too high) detected at line 332
  []
 
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 311.
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 332.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1716,23 +1741,11 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [20
 
- <./fig_tcc/heatmapper_2_andar.png>]
-<fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf, id=791, 1783.60567pt x 101
-6.41664pt>
-File: fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf Graphic file (type pdf
-)
-<use fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf>
-Package pdftex.def Info: fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf  us
-ed on input line 322.
-(pdftex.def)             Requested size: 303.20895pt x 172.78854pt.
-
-Overfull \vbox (26.6878pt too high) detected at line 322
- []
-
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 322.
+ <./fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf>]
+File: fig_tcc/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
+<use fig_tcc/logo_ifce_horizontal_padronizado.pdf>
+Package pdftex.def Info: fig_tcc/logo_ifce_horizontal_padronizado.pdf  used on 
+input line 353.
 (pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
 
 Overfull \hbox (2.19998pt too wide) has occurred while \output is active
@@ -1741,45 +1754,7 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 
 [21
 
- <./fig_tcc/APs_Bloco_Andar_1_Proposta_Intervencao.pdf>]
-<fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf, id=876, 2281.10005pt x 126
-6.65628pt>
-File: fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf Graphic file (type pdf
-)
-<use fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf>
-Package pdftex.def Info: fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf  us
-ed on input line 331.
-(pdftex.def)             Requested size: 296.55342pt x 164.6711pt.
-
-Overfull \vbox (18.57036pt too high) detected at line 331
- []
-
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 331.
-(pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
-
-Overfull \hbox (2.19998pt too wide) has occurred while \output is active
-[][] 
- []
-
-[22
-
- <./fig_tcc/APs_Bloco_Andar_2_Proposta_Intervencao.pdf>]
-File: img/logo_ifce_horizontal_padronizado.pdf Graphic file (type pdf)
-<use img/logo_ifce_horizontal_padronizado.pdf>
-Package pdftex.def Info: img/logo_ifce_horizontal_padronizado.pdf  used on inpu
-t line 352.
-(pdftex.def)             Requested size: 107.25255pt x 25.60904pt.
-
-Overfull \hbox (2.19998pt too wide) has occurred while \output is active
-[][] 
- []
-
-[23
-
-] [24
+] [22
 
 ]
 \tf@nav=\write7
@@ -1791,19 +1766,26 @@ Overfull \hbox (2.19998pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `Defesa_TCC.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 384.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 384.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
  (Defesa_TCC.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 384.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 384.
-Package rerunfilecheck Info: File `Defesa_TCC.out' has not changed.
-(rerunfilecheck)             Checksum: 56CD1C5A6F8FC9720DDD3840D25BEC76;427.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 387.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 387.
+
+
+Package rerunfilecheck Warning: File `Defesa_TCC.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Defesa_TCC.out':
+(rerunfilecheck)             Before: 56CD1C5A6F8FC9720DDD3840D25BEC76;427
+(rerunfilecheck)             After:  81FE41D5E116697DF78D333D46C376B9;444.
  ) 
 Here is how much of TeX's memory you used:
- 24988 strings out of 492946
- 472292 string characters out of 3135492
- 567936 words of memory out of 3000000
- 28211 multiletter control sequences out of 15000+200000
+ 24982 strings out of 492946
+ 472179 string characters out of 3135492
+ 568984 words of memory out of 3000000
+ 28210 multiletter control sequences out of 15000+200000
  71038 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,79p,779b,718s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1817,9 +1799,9 @@ lic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Defesa_TCC.pdf (24 pages, 3773046 bytes).
+Output written on Defesa_TCC.pdf (22 pages, 3769355 bytes).
 PDF statistics:
- 979 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 966 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
  210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,9 @@
 \babel@toc {portuguese}{}
-\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o e o Tema}{3}{0}{1}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
 \beamer@sectionintoc {2}{Infraestrutura Wi-Fi}{6}{0}{2}
-\beamer@sectionintoc {3}{Site Survey}{11}{0}{3}
-\beamer@sectionintoc {4}{Metodologia}{12}{0}{4}
-\beamer@sectionintoc {5}{Materiais Utilizados}{14}{0}{5}
-\beamer@sectionintoc {6}{Resultados}{15}{0}{6}
-\beamer@sectionintoc {7}{Propostas de Interven\IeC {\c c}\IeC {\~a}o}{21}{0}{7}
-\beamer@sectionintoc {8}{Conclus\IeC {\~a}o}{23}{0}{8}
+\beamer@sectionintoc {3}{Site Survey}{9}{0}{3}
+\beamer@sectionintoc {4}{Metodologia do Trabalho}{10}{0}{4}
+\beamer@sectionintoc {5}{Materiais Utilizados}{12}{0}{5}
+\beamer@sectionintoc {6}{Resultados}{13}{0}{6}
+\beamer@sectionintoc {7}{Propostas de Interven\IeC {\c c}\IeC {\~a}o}{19}{0}{7}
+\beamer@sectionintoc {8}{Considera\IeC {\c c}\IeC {\~o}es Finais}{21}{0}{8}
